@@ -10,3 +10,14 @@ The goal of the competition is to accumulate the least amount of points in order
 The way the finishing positions and points are being noted for each race is as follows: At the finish line an official from the jury has a notebook and writes down the unique sail number of the competitor when they cross the line. Later once the jury comes to shore they manually copy the handwritten sail numbers over to an excel sheet that handles executing the necessary calculations, and generates the new standings of the competition.
 
 The process at the moment is labour intensive and time consuming. When people of the jury spend hours on the water and later have to spend time copying the sail number from their notebook to a computer, it is prone to long waiting time and errors.
+
+### Goal
+The goal is to take out the “analog” part of the process. Remove the notebook and remove the “double” work of the jury members. Ideally the finishing position will only need to be noted once and the competition standings should be updated immediately.
+
+In order to achieve this the following idea has come up: Setup a software system that holds the necessary business logic to process the finishing positions and generate new standings. Replace the notebook and pen with a tablet and smart pencil to write down the finishing sail numbers. Finally, be able to send the written sail numbers to the software system to process the data.
+
+### Technologies & Techniques
+
+- FastAPI (Python): Holds all the business logic for managing sailing competitions.
+- NextJS (TypeScript): A visual interface to interact with the business logic.
+- Tensorflow & OpenCV: A Convolutional Neural Netwrok is trained with Tensorflow and OpenCV is utilized to process the data before it is passed to the Convolutional Neural Network.
