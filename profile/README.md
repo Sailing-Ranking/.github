@@ -57,3 +57,5 @@ The result is a full stack application that utilises a Optical Character Recogni
 
 ## Future Work
 
+There are still multiple possibilities to extend the system with other Artificial Intelligence models 1) Speech Recognition to record your voice and 2) An Object Detection System that registers finishing positions automatically at the finish line.
+
