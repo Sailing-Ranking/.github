@@ -21,6 +21,9 @@ The MNIST database (Modified National of Standards and Technology database) is a
 
 The MNIST database contains 60.000 training images and 10.000 standardised testing images.
 
+## Ethics
+![ethics](./ethics.png)
+
 ## Data Preprocessing
 
 The MNIST database has already been through the necessary steps in order for it to be suitable for training an Artificial Intelligence model.
