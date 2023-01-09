@@ -22,7 +22,7 @@ The MNIST database (Modified National of Standards and Technology database) is a
 The MNIST database contains 60.000 training images and 10.000 standardised testing images.
 
 ## Ethics
-![ethics](./ethics.png)
+![alt text](https://github.com/michael-gvdw/Sailing-Ranking/.github/profile/main/ethics.png?raw=true)
 
 ## Data Preprocessing
 
