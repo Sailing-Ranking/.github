@@ -46,6 +46,10 @@ Next.js is a flexible React Framework that gives the developer building blocks t
 
 I developed code that is capable of recognizing a number from an image. The code utilises OpenCV in order to find the different digits the number is composed of and returns the positions of the digits. The digits’ positions are sorted left to right and passed to a Convolutional Neural Network, implemented with Tensorflow/Keras, which recognises the number displayed. The recognised digits are concatenated together to form the original number. Last, the predicted number is compared to the available number is the database and the closest match is returned.
 
+### Speech Recognition with OpenAI Whisper
+
+I developed a standalone python module that utilises OpenAI Whisper model in order to recognise and transcribe speech.
+
 ### Data Version Control (DVC)
 
 DVC is a data and Machine Learning management tool that takes advantage of the existing engineering toolset (Git, IDE, CI/CD). By integrating DVC it is possible to version the different states of the dataset, it is also possible to version Machine Learning Models. Lastly, it is possible to create “pipelines” which are a sequence of steps that allow for reproducibility of the different states of the project.
